@@ -1,7 +1,7 @@
-# QCExe - Python3
+# QCExeExample - Python3
 ## Usage
 --------------
-Place the input data file in the local directory, and change the variable csv_name to the path to the file. Ensure that the data.csv file is in the local directory. After the program is run, the HTML output will automatically open in the default browser.
+RunQCExe.ipynb will run MakeExampleData.ipynb to generate an ExampleData.csv and QCExeExample.ipynb to run data analyses and html generation using the .csv file. After the program is run, the HTML output will automatically open in the default browser.
 ## Modules
 --------------
 
@@ -24,7 +24,7 @@ Seaborn is a graphing module that is more suited to handle Pandas dataframes tha
 ```
 import os
 ```
-Os is a file-handling module used to browse through the local directory to import images saved as .png’s to the HTML output.
+Os is a file-handling module used to browse through the local directory to import images saved as .png's to the HTML output.
 
 ```
 import webbrowser
